@@ -1,0 +1,1151 @@
+* {
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.heading {
+  background-color: black;
+  color: rgb(233, 229, 229);
+  font-size: 10px;
+  padding: 5px 300px;
+  font-weight: 100;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.heading h2 {
+  font-size: 18px;
+  align-items: center;
+  margin-top: 2px;
+  justify-content: center;
+}
+
+.heading a {
+  font-weight: 100;
+  text-decoration: underline;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+nav {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  margin-top: 15px;
+ 
+}
+
+nav img {
+  width: 5%;
+  margin-left: 50px;
+  height: 20px;
+  margin-top: 8px;
+}
+
+nav ul {
+  display: flex;
+  gap: 3rem;
+  padding: 10px 120px;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li {
+  text-decoration: none;
+  color: black;
+  font-family: 'Lucida Sans', sans-serif;
+  font-size: 12px;
+
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+nav .icons {
+  display: flex;
+ 
+}
+nav .icons .icon{
+  display: flex;
+  width: 40%;
+  margin-left: -15%;
+  margin: 5px 20px;
+}
+
+nav .icons .icon ul li{
+  width: 60%;
+}
+
+nav .icons .icon ul li a{
+  width: 40%;
+  cursor: pointer;
+}
+
+
+nav .icons input {
+  padding: 10px 20px;
+  background-color: rgb(248, 253, 255);
+  border: none;
+  display: flex;
+
+}
+
+
+nav .icons .dropdown{
+ width: 50%;
+ height: 100%;
+ margin-left: -18%;
+ margin-top: 8px;
+}
+
+nav .icons .icon .icon-list{
+  display: flex;
+}
+nav .icons .icon li{
+  display: flex;
+  width: 100%;
+}
+/* nav .icons .icon .icon-list .link{
+} */
+nav .icons .icon  li a{
+  font-size: 45px;
+  width: 40px;
+  margin-left: -20px;
+  
+}
+
+nav .icons .dropdown img{
+  width: 15%;
+  height: 40%;
+}
+nav .icons .dropdown ul li{
+  width: 100%;
+  font-size: 12px;
+}
+nav .icons .icon li a {
+  font-size: 20px;
+  cursor: pointer;
+
+}
+
+nav .icons .icon  li a .link {
+  cursor: pointer;
+
+}
+nav .icons .icon li a span{
+  font-size: 16px;
+  position: absolute;
+  margin-top: -3%;
+  margin-left: 20px;
+  
+}
+
+
+
+
+
+.product-container{
+  width: 80vw;
+  margin-left: 10%;
+}
+.product-container .products{
+  display: flex;
+  flex-wrap: wrap;
+}
+.product-container .products .card-pro{
+  width: 20%;
+  display: flex;
+}
+.container {
+  display: flex;
+  width: 100vw;
+  height: auto;
+  margin: 40px 40px;
+
+
+}
+.conatiner .pro-cnt{
+  margin-left: 20%;
+}
+
+.category-list {
+  padding: 10px 3px;
+  width: 20vw;
+  margin-right: 20px;
+
+
+}
+
+.category-list ul li {
+  list-style: none;
+  margin-top: -10px;
+  padding: 12px 10px;
+  cursor: pointer;
+
+}
+
+
+.brand_section {
+  padding: 15px;
+  display: flex;
+  width: 65vw;
+  height: 60vh;
+  color: white;
+  background-color: black;
+}
+
+.brand_section .left-side {
+  width: 40vw;
+  margin: 50px 0px;
+  border: 2px solid black;
+
+}
+
+.brand_section .left-side div {
+  display: flex;
+  gap: 1rem;
+}
+
+.brand_section .left-side h1 {
+  width: 100%;
+  font-size: 50px;
+
+}
+
+.brand_section .left-side a {
+  color: white;
+  padding-left: 20px;
+  font-size: 18px;
+  padding: 20px;
+  cursor: pointer;
+}
+
+
+
+.brand_section img {
+  width: 400px;
+  height: 280px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+/* sale section */
+.sale-section {
+  width: 100vw;
+  margin-left: 130px;
+  margin-top: 150px;
+}
+
+.sale-section h4 {
+  font-size: 20px;
+  padding-left: 20px;
+  color: red;
+}
+
+.sale-section h1 {
+  font-size: 30px;
+  padding-left: 20px;
+}
+
+.sale-section .sale-card {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.sale-section .sale-card img {
+  width: 70%;
+  height: 70%;
+  margin-top: 20px;
+  margin-left: 50px;
+  align-items: center;
+  justify-items: center;
+}
+
+.sale-section .sale-card .card {
+  width: 20%;
+  height: 60%;
+  margin: 10px 0.5%;
+}
+
+.sale-section .sale-card .card4 {
+  width: 20%;
+  height: 60%;
+}
+
+.sale-section .sale-card .card4 .img-section {
+  background-color: rgb(242, 243, 243);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.sale-section .sale-card .card4 .img-section {
+  background-color: rgb(242, 243, 243);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.sale-section .sale-card .card4 .img-section {
+  background-color: rgb(242, 243, 243);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.sale-section .sale-card .card4 .img-section {
+  background-color: rgb(242, 243, 243);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.sale-section .sale-card .card4 .img-section .sale-img {
+  width: 80%;
+  height: 50%;
+}
+
+.sale-section .sale-card .card4 .img-section .icon-img {
+  display: flex;
+  flex-direction: column;
+  width: 30px;
+  height: 30px;
+  margin-right: 45px;
+}
+
+.sale-section .sale-card .card .img-section .icon-img img {
+  width: 70%;
+  margin-top: 5px;
+}
+
+.sale-section .sale-card .card .img-section {
+  background-color: rgb(242, 243, 243);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.sale-section .sale-card .card .img-section .sale-img {
+  width: 80%;
+  height: 80%;
+}
+
+.sale-section .sale-card .card .img-section .icon-img {
+  display: flex;
+  flex-direction: column;
+  width: 30px;
+  height: 30px;
+  margin-right: 45px;
+}
+
+.sale-section .sale-card .card .img-section .icon-img img {
+  width: 70%;
+  margin-top: 5px;
+}
+
+.sale-section .sale-card .card h2 {
+  color: black;
+  font-size: 18px;
+  padding: 10px 20px;
+}
+
+.sale-section .sale-card .card p {
+  color: red;
+  font-family: sans-serif;
+  font-size: small;
+  padding: 00px 20px;
+}
+
+.sale-section .sale-card .card .col {
+  border: 10px solid gray;
+}
+
+.sale-section .sale-card .card .card-body {
+  background-color: white;
+}
+
+.sale-section .sale-button {
+  margin: 30px 450px;
+
+
+}
+.sale-section .sale-button a{
+  color: white;
+  text-decoration: none   ;
+}
+
+hr {
+  width: 85vw;
+  margin-left: 120px;
+}
+
+/* //category-section */
+.category-section {
+  width: 40vw;
+}
+
+
+
+
+
+
+
+
+
+/* Banner section */
+.banner-section {
+  width: 70vw;
+  height: 10%;
+  margin: 20px 150px;
+  margin-top: 50px;
+  margin-bottom: 120px;
+  background-color: black;
+}
+
+.banner-section .content {
+  margin: 20px 10px;
+
+  display: flex;
+}
+
+.banner-section .rht {
+  width: 40%;
+}
+
+.banner-section .rht img {
+  width: 400px;
+  height: 350px;
+  text-shadow: 2px 2px grey;
+  margin-left: -80px;
+
+}
+
+.banner-section .lft {
+  color: white;
+  margin: 20px 40px;
+}
+
+.banner-section .lft p {
+  color: green;
+  margin-top: 20px;
+  font-size: 16px;
+
+}
+
+.banner-section .lft h1 {
+  font-size: 40px;
+  width: 80%;
+}
+
+.banner-section .lft .ct-banner {
+  margin-top: 20px ;
+  display: flex;
+}
+
+.banner-section .content .lft .ct-banner .tym {
+  background-color: white;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  margin-left: 20px;
+  margin: 10px 10px;
+
+  color: black;
+}
+.banner-section .content .lft .ct-banner .tym h3 {
+  font-size: 15px;
+  padding-top: 5px;
+  padding-left: 10px;
+}
+.banner-section .content .lft .ct-banner .tym h2 {
+  font-size: 8px;
+  margin-top: -10px;
+  margin-left: 8px;
+ 
+}
+.banner-section .content .lft button{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+
+/* Product sections */
+
+
+
+/* //Signup Styling */
+
+.signup-container {
+  display: flex;
+  flex-direction: row;
+  width: 80vw;
+  height: 80vh;
+  margin-top: 30px;
+}
+
+.signup-container .left-side {
+  width: 60%;
+  margin: 10px 0px;
+  height: 80%;
+}
+
+.signup-container .left-side img {
+  width: 90%;
+  height: 100%;
+
+}
+
+.signup-container .right-side {
+  margin-left: 10%;
+  height: 80%;
+  width: 30%;
+
+}
+
+.signup-container .right-side h1 {
+  font-size: 30px;
+}
+
+.signup-container .right-side p {
+  font-size: 12px;
+  padding-left: 5px;
+}
+
+.signup-container .right-side .form-control {
+  background-color: none;
+  padding: 2px 10px;
+  width: 100%;
+}
+
+.signup-container .right-side form .btn {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  width: 100%;
+
+}
+
+.signup-container .right-side form .btn button {
+  height: 30%;
+  font-size: 12px;
+  padding: 5px 60px;
+}
+
+.signup-container .right-side form .btn p {
+  font-size: 12px;
+}
+
+.signup-container .right-side form .forget {
+  margin-top: 20px;
+  color: red;
+}
+/* Ctaegory section */
+.category-section{
+  width: 80vw;
+  margin-left: 12%;
+  margin-top: 5%;
+}
+
+.category-section h4{
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 35px;
+  color: red;
+}
+.category-section h1{
+  font-size: 29px;
+  margin-top: 8px;
+  margin-left: 35px;
+
+}
+
+.category-section .category-img{
+  display: flex;
+}
+.category-section .category-img .imgs{
+  margin-top: 60px;
+  margin-left: 40px;
+  border: 1px solid black;
+  padding: 20px 30px;
+  width: 20%;
+  cursor: pointer;
+  height: 15%;
+  
+}
+.category-section .category-img .imgs img{
+  width: 50%;
+  height: 70%;
+  margin-left: 20px;
+}
+.category-section .category-img .imgs p{
+  margin-top: 15px;
+  margin-left: 17px;
+  font-size: 15px;
+  font-weight: 500;
+
+}
+.category-section .category-img .imgs:hover{
+  background-color: rgb(241, 68, 68);
+}
+
+
+
+
+/* About Styling */
+.about-container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  margin: 50px 10px;
+}
+
+.about-container .left-side {
+  width: 50%;
+  margin-top: 5%;
+  margin-left: 8%;
+}
+
+.about-container .right-side {
+  margin-left: 10%;
+  width: 50vw;
+  height: 90vh;
+}
+
+.about-container .right-side img {
+  width: 100%;
+  height: 70%;
+}
+
+.about-container .left-side .sec-pera {
+  margin-top: 25px;
+}
+
+.rating-section {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px 10px;
+  margin-left: 130px;
+}
+
+.rating-section .boxes {
+  width: 20%;
+  height: auto;
+  padding: 10px;
+  margin-left: 20px;
+  border: 0.5px solid rgb(120, 117, 117);
+  cursor: pointer;
+}
+
+.rating-section .boxes:hover {
+  background-color: rgb(240, 63, 63);
+}
+
+.rating-section .boxes .imgs {
+  width: 25%;
+  height: 30%;
+  border-radius: 100%;
+  margin: 10px 60px;
+  border: 2px solid black;
+  background-color: black;
+}
+
+.rating-section .boxes .imgs img {
+  width: 80%;
+  padding-top: 4px;
+  padding-left: 10px;
+  height: 80%;
+
+}
+
+.rating-section .boxes .imgs-last {
+  width: 25%;
+  height: 30%;
+  border-radius: 100%;
+  margin: 10px 60px;
+  border: 2px solid black;
+  background-color: rgb(245, 241, 241);
+}
+
+.rating-section .boxes .imgs-last img {
+  width: 90%;
+  padding-top: 5px;
+  padding-left: 5px;
+  height: 80%;
+}
+
+.rating-section .boxes h1 {
+  font-size: 25px;
+  padding-left: 45px;
+  font-weight: bold;
+}
+
+.rating-section .boxes p {
+  font-size: 15px;
+  padding: 2px 20px;
+}
+
+
+.founder-section {
+  width: 1000px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 130px;
+  margin-left: 160px;
+}
+
+.founder-section .founder-details {
+  width: 32%;
+
+}
+
+.founder-details .img-section {
+  width: 90%;
+  height: 350px;
+  padding: 20px;
+  background-color: rgb(226, 226, 231);
+
+
+}
+
+.founder-section .founder-details .img-section img {
+  width: 95%;
+  height: 100%;
+}
+
+.founder-section .founder-details h1 {
+  font-size: 23px;
+  padding-left: 10px;
+}
+
+.founder-section .founder-details p {
+  font-size: 13px;
+  padding-left: 10px;
+}
+
+.founder-section .founder-details .founder-icon {
+  display: flex;
+  flex-wrap: wrap;
+  width: 30%;
+  margin-top: -10px;
+}
+
+.founder-section .founder-details .founder-icon img {
+  width: 20px;
+  padding-left: 8px;
+}
+
+.customer-service {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  margin-left: 12%;
+  margin-top: 13%;
+  margin-bottom: 15%;
+}
+
+.customer-service .customer-card {
+  width: 30%;
+  margin-left: 29px;
+}
+
+.customer-service .customer-card .customer-img {
+  width: 20%;
+  height: 33%;
+  border-radius: 100%;
+  margin-left: 80px;
+  margin-top: 10px;
+
+  padding-left: 5px;
+  background-color: black;
+  border: 4px solid grey;
+
+}
+
+.customer-service .customer-card .customer-img img {
+  width: 80%;
+  height: 90%;
+  padding: 2px;
+}
+
+.customer-service .customer-card h2 {
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
+.customer-service .customer-card p {
+  font-size: 10px;
+  padding-left: 20px;
+}
+
+
+
+/* Footer container */
+.footer-container {
+  width: 100vw;
+  background-color: black;
+  color: white;
+  height: 35vh;
+}
+
+.footer-container .footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 8%;
+}
+
+.footer-container .footer-content .list {
+  width: 25%;
+  padding: 20px;
+  margin-top: 20px;
+
+}
+
+.footer-container .footer-content .list h1 {
+  font-size: 15px;
+  margin-left: 32px;
+}
+
+.footer-container .footer-content .list ul li {
+  list-style: none;
+  font-size: 10px;
+  cursor: pointer;
+  padding-top: 10px;
+
+}
+
+
+.footer-container .footer-content .list .qr {
+  width: 80%;
+  height: 100%;
+  margin-left: 10%;
+}
+
+
+.footer-container .footer-content .list .store {
+  display: flex;
+
+}
+
+
+/* contact section */
+.account {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+
+
+}
+
+.account .left-side {
+  display: flex;
+  width: 40%;
+  padding-left: 30px;
+}
+
+.account .right-side {
+  margin-left: 50%;
+  width: 40%;
+}
+
+.contact-content {
+  margin-top: 50px;
+  display: flex;
+  margin-left: 50px;
+  margin-bottom: 150px;
+}
+
+.contact-content h1 {
+  font-size: 15px;
+}
+
+.contact-content li {
+  font-size: 12px;
+  list-style: none;
+  color: grey;
+}
+
+.contact-content .right-content {
+  width: 50vw;
+  margin-left: 20%;
+  border: 1px solid rgb(232, 227, 227);
+
+}
+
+.contact-content .right-content h1 {
+  font-size: 18px;
+  color: rgb(142, 25, 25);
+  margin: 5px 20px;
+
+}
+
+.contact-content .right-content form {
+  width: 80%;
+  margin: 10px 20px;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.contact-content .right-content form input {
+  width: 220px;
+  margin-left: 10px;
+
+  background-color: rgb(213, 224, 224);
+
+
+}
+
+.contact-content .right-content form .change-pasword {
+  width: 100%;
+}
+
+.contact-content .right-content .change-pasword input {
+  width: 450px;
+  background-color: rgb(213, 213, 224);
+}
+
+.contact-content .right-content .btns {
+  margin-top: 10px;
+  margin-left: 240px;
+}
+.products-section {
+  width: 80vw;
+  height: auto;
+  padding: 20px 10px;
+  margin-left: 130px;
+}
+.products-section .cards-section{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 8px;
+}
+.products-section .cards-section .card{
+  width: 22%;
+  padding: 20px;
+  margin-top: 20px;
+  margin-left: 10px;
+
+
+}
+.products-section p{
+  color: red;
+  font-size: 15px;
+  font-weight: 500;
+  margin-left: 30px;
+}
+.products-section h3{
+  font-size: 25px;
+  font-weight: 700;
+  font-family: 'Times New Roman', Times, serif;
+
+  margin: 30px 380px;
+}
+.products-section .cards-section .card button{
+  width: 90%;
+  font-size: 12px;
+
+}
+.products-section .cards-section .card button:hover{
+  background-color: rgb(82, 80, 80);
+}
+.products-section .cards-section .card .img-sec{
+  width: 90%;
+  height: 70%;
+  display: flex;
+
+  background-color:rgb(224, 224, 227) ;
+}
+.products-section .cards-section .card .img-sec .icon-img{
+  margin-left: 40px;
+
+
+}
+.products-section .cards-section .card .img-sec .icon-img img{
+  margin: 5px;
+  width: 60%;
+  height: 15%;
+  cursor: pointer;
+}
+.products-section .cards-section .card .img-sec .icon-img img:hover{
+  width: 70%;
+  height: 16%;
+}
+
+.products-section .cards-section .card .img-sec .img{
+  width: 90%;
+
+}
+
+.products-section .cards-section .card .img-sec .img img{
+  width:99%;
+  height: 110px;
+  margin: 20px 30px;
+}
+.products-section .btnd{
+  margin-top: 5%;
+  margin-left: 35%;
+}
+.products-section .cards-section .card  h4{
+  font-size: 15px;
+  padding: 10px 20px;
+}
+.products-section .cards-section .card  p{
+  font-size: 15px;
+  color: red;
+  margin-top: -10px;
+  margin-left: 15px;
+}
+/* New arrival section */
+
+.arrsection{
+  width: 72vw;
+  height: auto;
+  margin-left: 12%;
+}
+.arrsection p{
+  color: red;
+  font-size: 17px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.arrsection h4{
+  font-size: 20px;
+}
+.arrsection  .arr-img{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.arrsection .arr-img .left-side{
+  width: 50%;
+  background-color: black;
+  border: 1px solid grey;
+  height: 96%;
+}
+.arrsection .arr-img .left-side img{
+  width: 100%;
+  height: 360px;
+  border-radius: 27px;
+}
+.arrsection .arr-img .right-side{
+
+  width: 350px;
+  height: 150px;
+  flex-direction: row;
+  margin-left: 2%;
+}
+.arrsection .arr-img .right-side .up-right{
+ display: flex;
+ background-color: black;
+ height: 180px;
+}
+.arrsection .arr-img .right-side .up-right .cont-right{
+  width: 150px;
+background-color: black;  
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.arrsection .arr-img .right-side .up-right .cont-right h1{
+  font-size: 15px;
+  margin-top: 30px;
+  color: white;
+}
+.arrsection .arr-img .right-side .up-right .cont-right p{
+  font-size: 8px;
+  width: 90%;
+
+  color: white;
+}
+
+.arrsection .arr-img .right-side .up-right .cont-right  a{
+  color: white;
+  text-decoration: underline;
+
+  font-size: 10px;
+ 
+
+}
+.arrsection .arr-img .right-side  .img-right img{
+  width: 160px;
+  height: 150px;
+}
+.arrsection .arr-img .right-side .down-right{
+  display: flex;
+  height: 150px;
+  margin-top: 20px;
+}
+.arrsection .arr-img .right-side .down-right .img1 {
+  background-color: black;
+  height: 150px;
+  width: 170px;
+}
+.arrsection .arr-img .right-side .down-right .img1 p{
+  font-size: 22px;
+  margin-left: 20px;
+  position: absolute;
+  margin-top: -40px;
+  color: white;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+}
+.arrsection .arr-img .right-side .down-right .img2 p{
+  font-size: 22px;
+  margin-left: 20px;
+  position: absolute;
+  margin-top: -40px;
+  margin-left: 40px;
+  color: white;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+.arrsection .arr-img .right-side .down-right .img1 img{
+  width: 160px ;
+  height: 150px;
+  background-color: black;
+  margin-left: 5%;
+}
+.arrsection .arr-img .right-side .down-right .img2 img{
+  width: 150px ;
+  height: 150px;
+  margin-left: 20%;
+  background-color: black;
+}
+
+
+
+
+/* Error page */
+.error-page{
+  margin: 80px 400px;
+}
+.error-page h1{
+  font-size: 60px;
+}
+.error-page p{
+  font-size: 10px;
+  margin-left: 80px;
+}
+.error-page button{
+  margin-left: 120px;
+  margin-top: 30px;
+}
+.error-page button a{
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  padding: 10px 30px;
+}
