@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAppleWhole, faArrowRight, } from '@fortawesome/free-solid-svg-icons'
 import Image from '../assets/img.png'
@@ -37,6 +37,7 @@ import Products from '../Pages/Products.jsx'
 
 
 const Home = () => {
+    
   return (
     <>
       <hr />
@@ -64,7 +65,7 @@ const Home = () => {
               <h4>iphone 14 series</h4>
             </div>
             <h1>Up to 10% off Voucher</h1>
-            <a href="#">Shop Now</a>
+            <a href="/product">Shop Now</a>
           </div>
 
           <div className="right-side">
@@ -326,7 +327,7 @@ const Home = () => {
       </div>
 
 
-    <Products/>
+   
       <section>
         <div className="arrsection">
           <p>Featured</p>

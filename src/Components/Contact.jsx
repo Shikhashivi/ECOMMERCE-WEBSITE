@@ -1,5 +1,9 @@
 import React from 'react'
 import Home from './Home.jsx'
+import Phone from "../assets/icons-phone.png";
+import mail from "../assets/icons-mail.png";
+
+
 
 const Contact = () => {
   return (
@@ -13,68 +17,36 @@ const Contact = () => {
         </div>
       </div>
       <section>
-        <div className="contact-content">
-          <div className="left-content">
-            <h1>Manage My Account</h1>
-            <ul>
-              <li>My Profile</li>
-              <li>Address Back</li>
-              <li>My Payment Options</li>
-            </ul>
-            <h1>My Orders</h1>
-            <ul>
-              <li>My Profile</li>
-              <li>Address Back</li>
-              <li>My Payment Options</li>
-            </ul>
-            <h1>My WishList</h1>
-            <ul>
-              <li>My WishList</li>
-              <li>Address Back</li>
-              <li>My Payment Options</li>
-            </ul>
+        <div className="con-section">
+        <div className="left-side">
+          <div className="up">
+            <img src={Phone} alt="" />
+            <h4>Call To Us </h4>
+            <p>We are available 24/7 days a week</p>
+            <p>phone: 123 456 7890</p>
+          </div>
+          <hr />
+          <div className="up">
+            <img src={mail} alt="" />
+            <h4>Write To Us</h4>
+            <p>Fill Out Our form and we will contact  you within 24 hours</p>
+            <p>Email:customer@exclusve.com</p>
+            <p>Email:service@exclusve.com</p>
 
           </div>
-          <div className="right-content">
-            <h1>Edit Your Profile</h1>
-
-            <form>
-              <div className="mb-3">
-                <label for="exampleInputEmail1" className="form-label">Fisrt Name</label>
-                <input type="text" className="form-control" id="exampleInputEmail1" />
-
-              </div>
-              <div className="mb-3">
-                <label for="exampleInputPassword1" className="form-label">Last Name</label>
-                <input type="text" className="form-control" id="exampleInputPassword1" />
-              </div>
-              <div className="mb-3">
-                <label for="exampleInputEmail1" className="form-label">Email address</label>
-                <input type="email" className="form-control" id="exampleInputEmail1" />
-
-              </div>
-              <div className="mb-3">
-                <label for="exampleInputPassword1" className="form-label">Address</label>
-                <input type="text" className="form-control" id="exampleInputPassword1" />
-              </div>
-              <div className="change-pasword">
-                <label for="exampleInputPassword1" className="form-label">Password</label>
-                <input type="password" className="form-control" id="exampleInputPassword1" placeholder='Current Password' />
-                <label for="exampleInputPassword1" className="form-label">Password</label>
-                <input type="password" className="form-control" id="exampleInputPassword1" placeholder='New Password' />
-                <label for="exampleInputPassword1" className="form-label">Password</label>
-                <input type="password" className="form-control" id="exampleInputPassword1" placeholder='Confirm New Password' />
-              </div>
-              <div className="btns">
-                <button type="button" class="btn btn-secondery btn-sm">Cancel</button>
-                <button type="button" class="btn btn-danger btn-sm">save changes</button>
-              </div>
-            </form>
-
-          </div>
-
+        </div>
+        <div className="right-side">
+          <input type="text" placeholder='Enter Name' />
+          <input type="text" placeholder='Enter email' /> 
+          <input type="text" placeholder='Enter phone' />
+          <textarea name="" id="" rows="7" cols="76" placeholder='Enter Message'></textarea>
+          <button type="button" class="btn btn-danger" >Send Message</button>
+           
+      
+        </div>
         </div>
       </section>
+    
     </>
   )
 }

@@ -72,10 +72,15 @@ nav .icons {
   display: flex;
  
 }
+nav .icons .search-icon input{
+  margin-left: 100px;
+  margin-top: 10px;
+}
+
 nav .icons .icon{
   display: flex;
   width: 40%;
-  margin-left: -15%;
+  margin-left: -1%;
   margin: 5px 20px;
 }
 
@@ -101,7 +106,7 @@ nav .icons input {
 nav .icons .dropdown{
  width: 50%;
  height: 100%;
- margin-left: -18%;
+ margin-left: -20%;
  margin-top: 8px;
 }
 
@@ -1149,3 +1154,71 @@ background-color: black;
   font-size: 12px;
   padding: 10px 30px;
 }
+
+/* contact section */
+.con-section{
+  display: flex;
+  width: 80vw;
+  margin-left: 40px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+.con-section .left-side{
+  width: 40%;
+  margin-bottom: 20px;
+  border: 0.5px solid rgb(236, 232, 232);
+  padding: 10px;
+
+}
+.con-section .left-side img{
+  width: 20px;
+}
+.con-section hr{
+  width: 80%;
+  margin-left: -2px;
+}
+.con-section .left-side h4{
+  font-size: 17px;
+  font-family:bold;
+  margin-left: 27px;
+  margin-top: -20px;
+  font-weight: 700;
+}
+.con-section .left-side p{
+  font-size: 12px;
+  margin-top: 12px;
+
+}
+.con-section .right-side {
+  margin-left: 10%;
+  border: 0.5px solid rgb(236, 232, 232)
+}
+.con-section .right-side input{
+margin-left: 10px;
+margin-top: 19px;
+padding: 5px;
+background-color: rgb(231, 231, 236);
+border: none;
+}
+.con-section .right-side textarea{
+  margin-top: 10px;
+  margin-left: 8px;
+  border: none;
+  padding: 10px;
+  background-color: rgb(231, 231, 236);
+}
+.con-section .right-side button{
+  margin-left: 70%;
+  font-size: 15px;
+}
+
+.search-inp{
+  position: absolute;
+  width: 200px;
+  margin-top: -105px;
+  margin-left: 700px;
+  padding: 6px;
+
+
+}
+

@@ -236,13 +236,15 @@ import { CartContext } from './Features/ContextProvider'
 
 
 const Product = ({product}) => {
+
+  
   const { dispatch } = useContext(CartContext)
   return (
     <div className="col">
     <div className="card">
       <img src={product.image} alt="" />
       <div className="card-body">
-        <h3 className="card_title">{product.title}</h3>
+        <h3 className="card_title">{product.name}</h3>
         <h4 className=''>${product.price}</h4>
         
       </div>
